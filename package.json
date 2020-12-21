@@ -3,9 +3,32 @@
   "version": "1.0.0",
   "description": "a social network focused in the gamers",
   "main": "server.js",
+  "engines": {
+    "node": "12.16.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "mbarba",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.778.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.5",
+    "sinon": "^9.2.1"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.3",
+    "jest": "^26.6.3",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.4"
+  }
 }
