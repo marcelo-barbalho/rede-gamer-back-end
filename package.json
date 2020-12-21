@@ -1,0 +1,11 @@
+{
+  "name": "game-network",
+  "version": "1.0.0",
+  "description": "a social network focused in the gamers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mbarba",
+  "license": "ISC"
+}
