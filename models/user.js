@@ -24,6 +24,10 @@ const UserSchema = new mongoose.Schema({
         required: true,
         select: false
     },
+    linked_games:  {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'games',
+    },
     is_active :{
         type: Boolean,
         default: true,

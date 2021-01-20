@@ -23,6 +23,7 @@ connectDB();
 app.get("/", (req, res) => res.send("E ai, estou funcionando?"));
 app.use("/auth", require("./routes/api/auth"));
 app.use("/user", require("./routes/api/user"));
+app.use("/games", require("./routes/api/games"));
 
 app.listen(PORT, () => {
   console.log(`port ${PORT}`);

@@ -95,7 +95,7 @@ router.post('/', [
   check('password', 'Please enter a password with 8 or more characters').isLength({ min: 8 })
 ], async (req, res, next) => {
   try {
-    let { name, username, birthdate, email, password, is_active, is_admin } = req.body
+    let { name, username, birthdate, email, password, is_active, is_admin, linked_games } = req.body
 
     const errors = validationResult(req)
     if (!errors.isEmpty()) {

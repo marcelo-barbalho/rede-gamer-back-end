@@ -12,6 +12,7 @@ const MSGS = {
     'PRODUCT404' : 'Produto não encontrado',
     'REQUIRED_PASSWORD' : 'Por favor, insira sua senha.', 
     'USER404' : 'Usuário não encontrado',
+    'GAME404' : 'Jogo não encontrado',
     'VALID_EMAIL' : 'Por favor, insira um email válido.',
     'WITHOUT_TOKEN' : 'Token não enviado',
     'VALID_USERNAME' : 'Por favor, insira um nome de usuário válido.',
